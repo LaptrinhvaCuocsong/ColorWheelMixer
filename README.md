@@ -3,7 +3,7 @@ https://github.com/rvanwijnen/spectral.js/tree/main
 
 # ColorWheelMixer example
 
-![example](images/example.gif)
+<img src="images/example.gif" alt="Example" style="height: auto; width:200px;"/>
 
 # How to install ColorWheelMixer!
 
