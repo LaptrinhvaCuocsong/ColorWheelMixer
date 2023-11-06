@@ -13,6 +13,8 @@
 /* Begin PBXFileReference section */
 		EFD3E8382AF936AF006616DF /* ColorWheelMixer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ColorWheelMixer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFD3E83B2AF936AF006616DF /* ColorWheelMixer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorWheelMixer.h; sourceTree = "<group>"; };
+		EFD3E8432AF936BE006616DF /* ColorWheelMixor.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = ColorWheelMixor.xcframework; sourceTree = "<group>"; };
+		EFD3E8442AF93772006616DF /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,9 +47,19 @@
 		EFD3E83A2AF936AF006616DF /* ColorWheelMixer */ = {
 			isa = PBXGroup;
 			children = (
+				EFD3E8422AF936B4006616DF /* Sources */,
 				EFD3E83B2AF936AF006616DF /* ColorWheelMixer.h */,
+				EFD3E8442AF93772006616DF /* Package.swift */,
 			);
 			path = ColorWheelMixer;
+			sourceTree = "<group>";
+		};
+		EFD3E8422AF936B4006616DF /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				EFD3E8432AF936BE006616DF /* ColorWheelMixor.xcframework */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,7 +200,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -248,7 +260,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -273,6 +285,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -284,6 +297,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.hungnm.ColorWheelMixer;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -303,6 +319,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -314,6 +331,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.hungnm.ColorWheelMixer;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

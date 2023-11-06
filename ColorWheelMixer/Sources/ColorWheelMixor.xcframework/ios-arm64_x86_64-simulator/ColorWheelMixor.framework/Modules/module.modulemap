@@ -1,0 +1,4 @@
+framework module ColorWheelMixor {
+  header "ColorWheelMixor-Swift.h"
+  requires objc
+}

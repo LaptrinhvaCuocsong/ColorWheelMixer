@@ -1,0 +1,1816 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ColorWheelMixor",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ColorWheelMixor",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ColorWheelMixor",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ColorWheelMixor",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Metal",
+        "printedName": "Metal",
+        "declKind": "Import",
+        "moduleName": "ColorWheelMixor"
+      },
+      {
+        "kind": "Import",
+        "name": "MetalKit",
+        "printedName": "MetalKit",
+        "declKind": "Import",
+        "moduleName": "ColorWheelMixor"
+      },
+      {
+        "kind": "Import",
+        "name": "simd",
+        "printedName": "simd",
+        "declKind": "Import",
+        "moduleName": "ColorWheelMixor"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ColorWheelMixor"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ColorWheelMixor",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "ColorWheelMixor",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Metal",
+        "printedName": "Metal",
+        "declKind": "Import",
+        "moduleName": "ColorWheelMixor"
+      },
+      {
+        "kind": "Import",
+        "name": "MetalKit",
+        "printedName": "MetalKit",
+        "declKind": "Import",
+        "moduleName": "ColorWheelMixor"
+      },
+      {
+        "kind": "Import",
+        "name": "simd",
+        "printedName": "simd",
+        "declKind": "Import",
+        "moduleName": "ColorWheelMixor"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ColorWheelMixor"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ColorWheel",
+        "printedName": "ColorWheel",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(size:mixColor:resultColor:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ColorWheel",
+                "printedName": "ColorWheelMixor.ColorWheel",
+                "usr": "s:15ColorWheelMixor0aB0V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "hasDefaultArg": true,
+                "usr": "c:@S@CGSize"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Binding",
+                "printedName": "SwiftUI.Binding<UIKit.UIColor>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "usr": "s:7SwiftUI7BindingV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Binding",
+                "printedName": "SwiftUI.Binding<UIKit.UIColor>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "usr": "s:7SwiftUI7BindingV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15ColorWheelMixor0aB0V4size03mixA006resultA0ACSo6CGSizeV_7SwiftUI7BindingVySo7UIColorCGANtcfc",
+            "mangledName": "$s15ColorWheelMixor0aB0V4size03mixA006resultA0ACSo6CGSizeV_7SwiftUI7BindingVySo7UIColorCGANtcfc",
+            "moduleName": "ColorWheelMixor",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ModifiedContent",
+                "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.VStack<SwiftUI.ModifiedContent<SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<ColorWheelMixor.MTKViewWrapper, SwiftUI._FrameLayout>, ColorWheelMixor.ColorAnchorWheel)>>, SwiftUI._BackgroundModifier<SwiftUI.ModifiedContent<SwiftUI.Color, SwiftUI._ClipEffect<SwiftUI.Circle>>>>>, SwiftUI._FlexFrameLayout>, SwiftUI._ValueActionModifier<UIKit.UIColor>>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ModifiedContent",
+                    "printedName": "SwiftUI.ModifiedContent<SwiftUI.VStack<SwiftUI.ModifiedContent<SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<ColorWheelMixor.MTKViewWrapper, SwiftUI._FrameLayout>, ColorWheelMixor.ColorAnchorWheel)>>, SwiftUI._BackgroundModifier<SwiftUI.ModifiedContent<SwiftUI.Color, SwiftUI._ClipEffect<SwiftUI.Circle>>>>>, SwiftUI._FlexFrameLayout>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VStack",
+                        "printedName": "SwiftUI.VStack<SwiftUI.ModifiedContent<SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<ColorWheelMixor.MTKViewWrapper, SwiftUI._FrameLayout>, ColorWheelMixor.ColorAnchorWheel)>>, SwiftUI._BackgroundModifier<SwiftUI.ModifiedContent<SwiftUI.Color, SwiftUI._ClipEffect<SwiftUI.Circle>>>>>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ModifiedContent",
+                            "printedName": "SwiftUI.ModifiedContent<SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<ColorWheelMixor.MTKViewWrapper, SwiftUI._FrameLayout>, ColorWheelMixor.ColorAnchorWheel)>>, SwiftUI._BackgroundModifier<SwiftUI.ModifiedContent<SwiftUI.Color, SwiftUI._ClipEffect<SwiftUI.Circle>>>>",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ZStack",
+                                "printedName": "SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<ColorWheelMixor.MTKViewWrapper, SwiftUI._FrameLayout>, ColorWheelMixor.ColorAnchorWheel)>>",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "TupleView",
+                                    "printedName": "SwiftUI.TupleView<(SwiftUI.ModifiedContent<ColorWheelMixor.MTKViewWrapper, SwiftUI._FrameLayout>, ColorWheelMixor.ColorAnchorWheel)>",
+                                    "children": [
+                                      {
+                                        "kind": "TypeNominal",
+                                        "name": "Tuple",
+                                        "printedName": "(SwiftUI.ModifiedContent<ColorWheelMixor.MTKViewWrapper, SwiftUI._FrameLayout>, ColorWheelMixor.ColorAnchorWheel)",
+                                        "children": [
+                                          {
+                                            "kind": "TypeNominal",
+                                            "name": "ModifiedContent",
+                                            "printedName": "SwiftUI.ModifiedContent<ColorWheelMixor.MTKViewWrapper, SwiftUI._FrameLayout>",
+                                            "children": [
+                                              {
+                                                "kind": "TypeNominal",
+                                                "name": "MTKViewWrapper",
+                                                "printedName": "ColorWheelMixor.MTKViewWrapper",
+                                                "usr": "s:15ColorWheelMixor14MTKViewWrapperV"
+                                              },
+                                              {
+                                                "kind": "TypeNominal",
+                                                "name": "_FrameLayout",
+                                                "printedName": "SwiftUI._FrameLayout",
+                                                "usr": "s:7SwiftUI12_FrameLayoutV"
+                                              }
+                                            ],
+                                            "usr": "s:7SwiftUI15ModifiedContentV"
+                                          },
+                                          {
+                                            "kind": "TypeNominal",
+                                            "name": "ColorAnchorWheel",
+                                            "printedName": "ColorWheelMixor.ColorAnchorWheel",
+                                            "usr": "s:15ColorWheelMixor0a6AnchorB0V"
+                                          }
+                                        ]
+                                      }
+                                    ],
+                                    "usr": "s:7SwiftUI9TupleViewV"
+                                  }
+                                ],
+                                "usr": "s:7SwiftUI6ZStackV"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "_BackgroundModifier",
+                                "printedName": "SwiftUI._BackgroundModifier<SwiftUI.ModifiedContent<SwiftUI.Color, SwiftUI._ClipEffect<SwiftUI.Circle>>>",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "ModifiedContent",
+                                    "printedName": "SwiftUI.ModifiedContent<SwiftUI.Color, SwiftUI._ClipEffect<SwiftUI.Circle>>",
+                                    "children": [
+                                      {
+                                        "kind": "TypeNominal",
+                                        "name": "Color",
+                                        "printedName": "SwiftUI.Color",
+                                        "usr": "s:7SwiftUI5ColorV"
+                                      },
+                                      {
+                                        "kind": "TypeNominal",
+                                        "name": "_ClipEffect",
+                                        "printedName": "SwiftUI._ClipEffect<SwiftUI.Circle>",
+                                        "children": [
+                                          {
+                                            "kind": "TypeNominal",
+                                            "name": "Circle",
+                                            "printedName": "SwiftUI.Circle",
+                                            "usr": "s:7SwiftUI6CircleV"
+                                          }
+                                        ],
+                                        "usr": "s:7SwiftUI11_ClipEffectV"
+                                      }
+                                    ],
+                                    "usr": "s:7SwiftUI15ModifiedContentV"
+                                  }
+                                ],
+                                "usr": "s:7SwiftUI19_BackgroundModifierV"
+                              }
+                            ],
+                            "usr": "s:7SwiftUI15ModifiedContentV"
+                          }
+                        ],
+                        "usr": "s:7SwiftUI6VStackV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "_FlexFrameLayout",
+                        "printedName": "SwiftUI._FlexFrameLayout",
+                        "usr": "s:7SwiftUI16_FlexFrameLayoutV"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI15ModifiedContentV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "_ValueActionModifier",
+                    "printedName": "SwiftUI._ValueActionModifier<UIKit.UIColor>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI20_ValueActionModifierV"
+                  }
+                ],
+                "usr": "s:7SwiftUI15ModifiedContentV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15ColorWheelMixor0aB0V4bodyQrvp",
+            "mangledName": "$s15ColorWheelMixor0aB0V4bodyQrvp",
+            "moduleName": "ColorWheelMixor",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ModifiedContent",
+                    "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.VStack<SwiftUI.ModifiedContent<SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<ColorWheelMixor.MTKViewWrapper, SwiftUI._FrameLayout>, ColorWheelMixor.ColorAnchorWheel)>>, SwiftUI._BackgroundModifier<SwiftUI.ModifiedContent<SwiftUI.Color, SwiftUI._ClipEffect<SwiftUI.Circle>>>>>, SwiftUI._FlexFrameLayout>, SwiftUI._ValueActionModifier<UIKit.UIColor>>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ModifiedContent",
+                        "printedName": "SwiftUI.ModifiedContent<SwiftUI.VStack<SwiftUI.ModifiedContent<SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<ColorWheelMixor.MTKViewWrapper, SwiftUI._FrameLayout>, ColorWheelMixor.ColorAnchorWheel)>>, SwiftUI._BackgroundModifier<SwiftUI.ModifiedContent<SwiftUI.Color, SwiftUI._ClipEffect<SwiftUI.Circle>>>>>, SwiftUI._FlexFrameLayout>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "VStack",
+                            "printedName": "SwiftUI.VStack<SwiftUI.ModifiedContent<SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<ColorWheelMixor.MTKViewWrapper, SwiftUI._FrameLayout>, ColorWheelMixor.ColorAnchorWheel)>>, SwiftUI._BackgroundModifier<SwiftUI.ModifiedContent<SwiftUI.Color, SwiftUI._ClipEffect<SwiftUI.Circle>>>>>",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ModifiedContent",
+                                "printedName": "SwiftUI.ModifiedContent<SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<ColorWheelMixor.MTKViewWrapper, SwiftUI._FrameLayout>, ColorWheelMixor.ColorAnchorWheel)>>, SwiftUI._BackgroundModifier<SwiftUI.ModifiedContent<SwiftUI.Color, SwiftUI._ClipEffect<SwiftUI.Circle>>>>",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "ZStack",
+                                    "printedName": "SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<ColorWheelMixor.MTKViewWrapper, SwiftUI._FrameLayout>, ColorWheelMixor.ColorAnchorWheel)>>",
+                                    "children": [
+                                      {
+                                        "kind": "TypeNominal",
+                                        "name": "TupleView",
+                                        "printedName": "SwiftUI.TupleView<(SwiftUI.ModifiedContent<ColorWheelMixor.MTKViewWrapper, SwiftUI._FrameLayout>, ColorWheelMixor.ColorAnchorWheel)>",
+                                        "children": [
+                                          {
+                                            "kind": "TypeNominal",
+                                            "name": "Tuple",
+                                            "printedName": "(SwiftUI.ModifiedContent<ColorWheelMixor.MTKViewWrapper, SwiftUI._FrameLayout>, ColorWheelMixor.ColorAnchorWheel)",
+                                            "children": [
+                                              {
+                                                "kind": "TypeNominal",
+                                                "name": "ModifiedContent",
+                                                "printedName": "SwiftUI.ModifiedContent<ColorWheelMixor.MTKViewWrapper, SwiftUI._FrameLayout>",
+                                                "children": [
+                                                  {
+                                                    "kind": "TypeNominal",
+                                                    "name": "MTKViewWrapper",
+                                                    "printedName": "ColorWheelMixor.MTKViewWrapper",
+                                                    "usr": "s:15ColorWheelMixor14MTKViewWrapperV"
+                                                  },
+                                                  {
+                                                    "kind": "TypeNominal",
+                                                    "name": "_FrameLayout",
+                                                    "printedName": "SwiftUI._FrameLayout",
+                                                    "usr": "s:7SwiftUI12_FrameLayoutV"
+                                                  }
+                                                ],
+                                                "usr": "s:7SwiftUI15ModifiedContentV"
+                                              },
+                                              {
+                                                "kind": "TypeNominal",
+                                                "name": "ColorAnchorWheel",
+                                                "printedName": "ColorWheelMixor.ColorAnchorWheel",
+                                                "usr": "s:15ColorWheelMixor0a6AnchorB0V"
+                                              }
+                                            ]
+                                          }
+                                        ],
+                                        "usr": "s:7SwiftUI9TupleViewV"
+                                      }
+                                    ],
+                                    "usr": "s:7SwiftUI6ZStackV"
+                                  },
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "_BackgroundModifier",
+                                    "printedName": "SwiftUI._BackgroundModifier<SwiftUI.ModifiedContent<SwiftUI.Color, SwiftUI._ClipEffect<SwiftUI.Circle>>>",
+                                    "children": [
+                                      {
+                                        "kind": "TypeNominal",
+                                        "name": "ModifiedContent",
+                                        "printedName": "SwiftUI.ModifiedContent<SwiftUI.Color, SwiftUI._ClipEffect<SwiftUI.Circle>>",
+                                        "children": [
+                                          {
+                                            "kind": "TypeNominal",
+                                            "name": "Color",
+                                            "printedName": "SwiftUI.Color",
+                                            "usr": "s:7SwiftUI5ColorV"
+                                          },
+                                          {
+                                            "kind": "TypeNominal",
+                                            "name": "_ClipEffect",
+                                            "printedName": "SwiftUI._ClipEffect<SwiftUI.Circle>",
+                                            "children": [
+                                              {
+                                                "kind": "TypeNominal",
+                                                "name": "Circle",
+                                                "printedName": "SwiftUI.Circle",
+                                                "usr": "s:7SwiftUI6CircleV"
+                                              }
+                                            ],
+                                            "usr": "s:7SwiftUI11_ClipEffectV"
+                                          }
+                                        ],
+                                        "usr": "s:7SwiftUI15ModifiedContentV"
+                                      }
+                                    ],
+                                    "usr": "s:7SwiftUI19_BackgroundModifierV"
+                                  }
+                                ],
+                                "usr": "s:7SwiftUI15ModifiedContentV"
+                              }
+                            ],
+                            "usr": "s:7SwiftUI6VStackV"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "_FlexFrameLayout",
+                            "printedName": "SwiftUI._FlexFrameLayout",
+                            "usr": "s:7SwiftUI16_FlexFrameLayoutV"
+                          }
+                        ],
+                        "usr": "s:7SwiftUI15ModifiedContentV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "_ValueActionModifier",
+                        "printedName": "SwiftUI._ValueActionModifier<UIKit.UIColor>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UIColor",
+                            "printedName": "UIKit.UIColor",
+                            "usr": "c:objc(cs)UIColor"
+                          }
+                        ],
+                        "usr": "s:7SwiftUI20_ValueActionModifierV"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI15ModifiedContentV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15ColorWheelMixor0aB0V4bodyQrvg",
+                "mangledName": "$s15ColorWheelMixor0aB0V4bodyQrvg",
+                "moduleName": "ColorWheelMixor",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:15ColorWheelMixor0aB0V",
+        "mangledName": "$s15ColorWheelMixor0aB0V",
+        "moduleName": "ColorWheelMixor",
+        "declAttributes": [
+          "Custom",
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ModifiedContent",
+                    "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.VStack<SwiftUI.ModifiedContent<SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<ColorWheelMixor.MTKViewWrapper, SwiftUI._FrameLayout>, ColorWheelMixor.ColorAnchorWheel)>>, SwiftUI._BackgroundModifier<SwiftUI.ModifiedContent<SwiftUI.Color, SwiftUI._ClipEffect<SwiftUI.Circle>>>>>, SwiftUI._FlexFrameLayout>, SwiftUI._ValueActionModifier<UIKit.UIColor>>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ModifiedContent",
+                        "printedName": "SwiftUI.ModifiedContent<SwiftUI.VStack<SwiftUI.ModifiedContent<SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<ColorWheelMixor.MTKViewWrapper, SwiftUI._FrameLayout>, ColorWheelMixor.ColorAnchorWheel)>>, SwiftUI._BackgroundModifier<SwiftUI.ModifiedContent<SwiftUI.Color, SwiftUI._ClipEffect<SwiftUI.Circle>>>>>, SwiftUI._FlexFrameLayout>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "VStack",
+                            "printedName": "SwiftUI.VStack<SwiftUI.ModifiedContent<SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<ColorWheelMixor.MTKViewWrapper, SwiftUI._FrameLayout>, ColorWheelMixor.ColorAnchorWheel)>>, SwiftUI._BackgroundModifier<SwiftUI.ModifiedContent<SwiftUI.Color, SwiftUI._ClipEffect<SwiftUI.Circle>>>>>",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ModifiedContent",
+                                "printedName": "SwiftUI.ModifiedContent<SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<ColorWheelMixor.MTKViewWrapper, SwiftUI._FrameLayout>, ColorWheelMixor.ColorAnchorWheel)>>, SwiftUI._BackgroundModifier<SwiftUI.ModifiedContent<SwiftUI.Color, SwiftUI._ClipEffect<SwiftUI.Circle>>>>",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "ZStack",
+                                    "printedName": "SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<ColorWheelMixor.MTKViewWrapper, SwiftUI._FrameLayout>, ColorWheelMixor.ColorAnchorWheel)>>",
+                                    "children": [
+                                      {
+                                        "kind": "TypeNominal",
+                                        "name": "TupleView",
+                                        "printedName": "SwiftUI.TupleView<(SwiftUI.ModifiedContent<ColorWheelMixor.MTKViewWrapper, SwiftUI._FrameLayout>, ColorWheelMixor.ColorAnchorWheel)>",
+                                        "children": [
+                                          {
+                                            "kind": "TypeNominal",
+                                            "name": "Tuple",
+                                            "printedName": "(SwiftUI.ModifiedContent<ColorWheelMixor.MTKViewWrapper, SwiftUI._FrameLayout>, ColorWheelMixor.ColorAnchorWheel)",
+                                            "children": [
+                                              {
+                                                "kind": "TypeNominal",
+                                                "name": "ModifiedContent",
+                                                "printedName": "SwiftUI.ModifiedContent<ColorWheelMixor.MTKViewWrapper, SwiftUI._FrameLayout>",
+                                                "children": [
+                                                  {
+                                                    "kind": "TypeNominal",
+                                                    "name": "MTKViewWrapper",
+                                                    "printedName": "ColorWheelMixor.MTKViewWrapper",
+                                                    "usr": "s:15ColorWheelMixor14MTKViewWrapperV"
+                                                  },
+                                                  {
+                                                    "kind": "TypeNominal",
+                                                    "name": "_FrameLayout",
+                                                    "printedName": "SwiftUI._FrameLayout",
+                                                    "usr": "s:7SwiftUI12_FrameLayoutV"
+                                                  }
+                                                ],
+                                                "usr": "s:7SwiftUI15ModifiedContentV"
+                                              },
+                                              {
+                                                "kind": "TypeNominal",
+                                                "name": "ColorAnchorWheel",
+                                                "printedName": "ColorWheelMixor.ColorAnchorWheel",
+                                                "usr": "s:15ColorWheelMixor0a6AnchorB0V"
+                                              }
+                                            ]
+                                          }
+                                        ],
+                                        "usr": "s:7SwiftUI9TupleViewV"
+                                      }
+                                    ],
+                                    "usr": "s:7SwiftUI6ZStackV"
+                                  },
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "_BackgroundModifier",
+                                    "printedName": "SwiftUI._BackgroundModifier<SwiftUI.ModifiedContent<SwiftUI.Color, SwiftUI._ClipEffect<SwiftUI.Circle>>>",
+                                    "children": [
+                                      {
+                                        "kind": "TypeNominal",
+                                        "name": "ModifiedContent",
+                                        "printedName": "SwiftUI.ModifiedContent<SwiftUI.Color, SwiftUI._ClipEffect<SwiftUI.Circle>>",
+                                        "children": [
+                                          {
+                                            "kind": "TypeNominal",
+                                            "name": "Color",
+                                            "printedName": "SwiftUI.Color",
+                                            "usr": "s:7SwiftUI5ColorV"
+                                          },
+                                          {
+                                            "kind": "TypeNominal",
+                                            "name": "_ClipEffect",
+                                            "printedName": "SwiftUI._ClipEffect<SwiftUI.Circle>",
+                                            "children": [
+                                              {
+                                                "kind": "TypeNominal",
+                                                "name": "Circle",
+                                                "printedName": "SwiftUI.Circle",
+                                                "usr": "s:7SwiftUI6CircleV"
+                                              }
+                                            ],
+                                            "usr": "s:7SwiftUI11_ClipEffectV"
+                                          }
+                                        ],
+                                        "usr": "s:7SwiftUI15ModifiedContentV"
+                                      }
+                                    ],
+                                    "usr": "s:7SwiftUI19_BackgroundModifierV"
+                                  }
+                                ],
+                                "usr": "s:7SwiftUI15ModifiedContentV"
+                              }
+                            ],
+                            "usr": "s:7SwiftUI6VStackV"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "_FlexFrameLayout",
+                            "printedName": "SwiftUI._FlexFrameLayout",
+                            "usr": "s:7SwiftUI16_FlexFrameLayoutV"
+                          }
+                        ],
+                        "usr": "s:7SwiftUI15ModifiedContentV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "_ValueActionModifier",
+                        "printedName": "SwiftUI._ValueActionModifier<UIKit.UIColor>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UIColor",
+                            "printedName": "UIKit.UIColor",
+                            "usr": "c:objc(cs)UIColor"
+                          }
+                        ],
+                        "usr": "s:7SwiftUI20_ValueActionModifierV"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI15ModifiedContentV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "ColorWheelMixor",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MetalKit",
+        "printedName": "MetalKit",
+        "declKind": "Import",
+        "moduleName": "ColorWheelMixor"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ColorWheelMixor"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIColor",
+        "printedName": "UIColor",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "mix",
+            "printedName": "mix(color1:color2:factor:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So7UIColorC15ColorWheelMixorE3mix6color16color26factorA2B_AB14CoreFoundation7CGFloatVtFZ",
+            "mangledName": "$sSo7UIColorC15ColorWheelMixorE3mix6color16color26factorA2B_AB12CoreGraphics7CGFloatVtFZ",
+            "moduleName": "ColorWheelMixor",
+            "static": true,
+            "declAttributes": [
+              "Final"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIColor",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UIColor",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "SynthesizedProtocol",
+          "NonSendable",
+          "Sendable",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByColorLiteral",
+            "printedName": "_ExpressibleByColorLiteral",
+            "usr": "s:s26_ExpressibleByColorLiteralP",
+            "mangledName": "$ss26_ExpressibleByColorLiteralP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/UIColor+Ext.swift",
+      "kind": "IntegerLiteral",
+      "offset": 425,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/UIColor+Ext.swift",
+      "kind": "IntegerLiteral",
+      "offset": 456,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/UIColor+Ext.swift",
+      "kind": "IntegerLiteral",
+      "offset": 486,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/UIColor+Ext.swift",
+      "kind": "IntegerLiteral",
+      "offset": 517,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorWheelExample.swift",
+      "kind": "IntegerLiteral",
+      "offset": 486,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorWheelExample.swift",
+      "kind": "StringLiteral",
+      "offset": 563,
+      "length": 19,
+      "value": "\"Mix color result:\""
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorWheelExample.swift",
+      "kind": "IntegerLiteral",
+      "offset": 679,
+      "length": 2,
+      "value": "80"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorWheelExample.swift",
+      "kind": "IntegerLiteral",
+      "offset": 691,
+      "length": 2,
+      "value": "80"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorWheelExample.swift",
+      "kind": "IntegerLiteral",
+      "offset": 803,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorWheelExample.swift",
+      "kind": "IntegerLiteral",
+      "offset": 816,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorWheelExample.swift",
+      "kind": "FloatLiteral",
+      "offset": 1675,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorWheelExample.swift",
+      "kind": "FloatLiteral",
+      "offset": 1681,
+      "length": 3,
+      "value": "0.2"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorWheelExample.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1774,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorWheelExample.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1848,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorMixMetal.swift",
+      "kind": "StringLiteral",
+      "offset": 838,
+      "length": 20,
+      "value": "\"spectral_mix_color\""
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorMixMetal.swift",
+      "kind": "Array",
+      "offset": 1158,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorMixMetal.swift",
+      "kind": "Array",
+      "offset": 1934,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorMixMetal.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2003,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorMixMetal.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2013,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorMixMetal.swift",
+      "kind": "Array",
+      "offset": 2312,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorMixMetal.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2384,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorMixMetal.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2394,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorMixMetal.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2439,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorMixMetal.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2450,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorMixMetal.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2460,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorMixMetal.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2843,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorMixMetal.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3582,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorMixMetal.swift",
+      "kind": "StringLiteral",
+      "offset": 4378,
+      "length": 13,
+      "value": "\"vertex_main\""
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorMixMetal.swift",
+      "kind": "StringLiteral",
+      "offset": 4458,
+      "length": 15,
+      "value": "\"fragment_main\""
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorMixMetal.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4860,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorMixMetal.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5163,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorMixMetal.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5247,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorMixMetal.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5317,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorMixMetal.swift",
+      "kind": "FloatLiteral",
+      "offset": 5351,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorMixMetal.swift",
+      "kind": "FloatLiteral",
+      "offset": 5356,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorMixMetal.swift",
+      "kind": "FloatLiteral",
+      "offset": 5361,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorMixMetal.swift",
+      "kind": "FloatLiteral",
+      "offset": 5366,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorMixMetal.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5418,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorMixMetal.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5765,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorMixMetal.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5985,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorMixMetal.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6130,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorMixMetal.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6146,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorMixMetal.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6835,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorMixMetal.swift",
+      "kind": "StringLiteral",
+      "offset": 7014,
+      "length": 25,
+      "value": "\"kernel_mixcolor_texture\""
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorMixMetal.swift",
+      "kind": "Array",
+      "offset": 7339,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorMixMetal.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8094,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorMixMetal.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8557,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorMixMetal.swift",
+      "kind": "FloatLiteral",
+      "offset": 9038,
+      "length": 3,
+      "value": "4.0"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorMixMetal.swift",
+      "kind": "FloatLiteral",
+      "offset": 9067,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorMixMetal.swift",
+      "kind": "Array",
+      "offset": 9310,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorMixMetal.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9379,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorMixMetal.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9389,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorMixMetal.swift",
+      "kind": "Array",
+      "offset": 9688,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorMixMetal.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9752,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorMixMetal.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9762,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorMixMetal.swift",
+      "kind": "Array",
+      "offset": 10130,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorMixMetal.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10203,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorMixMetal.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10213,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorMixMetal.swift",
+      "kind": "Array",
+      "offset": 10512,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorMixMetal.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10584,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorMixMetal.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10594,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorMixMetal.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10744,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorMixMetal.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10747,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorMixMetal.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10750,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorMixMetal.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10964,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorMixMetal.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11379,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorWheel.swift",
+      "kind": "FloatLiteral",
+      "offset": 382,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorWheel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 505,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorWheel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 811,
+      "length": 3,
+      "value": "300"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorWheel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 824,
+      "length": 3,
+      "value": "300"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorWheel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1084,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorWheel.swift",
+      "kind": "FloatLiteral",
+      "offset": 1802,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorWheel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1850,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorWheel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1853,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorWheel.swift",
+      "kind": "FloatLiteral",
+      "offset": 2147,
+      "length": 4,
+      "value": "0.01"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorWheel.swift",
+      "kind": "FloatLiteral",
+      "offset": 2198,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorWheel.swift",
+      "kind": "FloatLiteral",
+      "offset": 2231,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorWheel.swift",
+      "kind": "FloatLiteral",
+      "offset": 2314,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorWheel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2870,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorWheel.swift",
+      "kind": "FloatLiteral",
+      "offset": 3014,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorWheel.swift",
+      "kind": "FloatLiteral",
+      "offset": 3043,
+      "length": 3,
+      "value": "4.0"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorWheel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3667,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorWheel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3735,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorWheel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3759,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorWheel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3874,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorWheel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3879,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorWheel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3906,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorWheel.swift",
+      "kind": "FloatLiteral",
+      "offset": 3917,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorWheel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3956,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorWheel.swift",
+      "kind": "FloatLiteral",
+      "offset": 3981,
+      "length": 4,
+      "value": "-1.0"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorWheel.swift",
+      "kind": "FloatLiteral",
+      "offset": 4436,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorWheel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4807,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorWheel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4941,
+      "length": 3,
+      "value": "360"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorWheel.swift",
+      "kind": "Array",
+      "offset": 5001,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorWheel.swift",
+      "kind": "Array",
+      "offset": 5040,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorWheel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5064,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorWheel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5500,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorWheel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5729,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorWheel.swift",
+      "kind": "FloatLiteral",
+      "offset": 5904,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorWheel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6020,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorWheel.swift",
+      "kind": "FloatLiteral",
+      "offset": 6096,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorWheel.swift",
+      "kind": "FloatLiteral",
+      "offset": 6176,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorWheel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7129,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorWheel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7147,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorWheel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7208,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorWheel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7289,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorWheel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7686,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorWheel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7722,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorWheel.swift",
+      "kind": "FloatLiteral",
+      "offset": 7731,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorWheel.swift",
+      "kind": "FloatLiteral",
+      "offset": 7750,
+      "length": 3,
+      "value": "1.5"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorWheel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7789,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorWheel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7825,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorWheel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7829,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorWheel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7930,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorWheel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7966,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorWheel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8040,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorWheel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8045,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorWheel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8357,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorWheel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8380,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorWheel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8405,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorWheel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8451,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorWheel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8462,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorWheel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8539,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorWheel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8550,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorWheel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8571,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorWheel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8612,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorWheel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8636,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorWheel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8681,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorWheel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8745,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorWheel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8798,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorWheel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8844,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorWheel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8855,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorWheel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8876,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorWheel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8907,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorWheel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8952,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorWheel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9017,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/ColorWheel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9028,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/MTKViewWrapper.swift",
+      "kind": "Array",
+      "offset": 253,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/MTKViewWrapper.swift",
+      "kind": "Array",
+      "offset": 285,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/MTKViewWrapper.swift",
+      "kind": "FloatLiteral",
+      "offset": 1133,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/MTKViewWrapper.swift",
+      "kind": "Array",
+      "offset": 2508,
+      "length": 5,
+      "value": "[1.0]"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/MTKViewWrapper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2658,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nguyenmanhhung\/Documents\/ColorWheelMixor\/ColorWheelMixor\/MTKViewWrapper.swift",
+      "kind": "StringLiteral",
+      "offset": 1263,
+      "length": 11,
+      "value": "\"ColorWheelMixor.Coordinator\""
+    }
+  ]
+}
