@@ -5,6 +5,8 @@
 //  Created by Leo on 06/11/2023.
 //
 
+// swift-tools-version:4.0
+
 import PackageDescription
 
 let package = Package(
