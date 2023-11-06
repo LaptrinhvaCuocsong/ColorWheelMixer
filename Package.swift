@@ -18,6 +18,6 @@ let package = Package(
     targets: [
       .binaryTarget(
         name: "ColorWheelMixer",
-        path: "./Sources/ColorWheelMixor.xcframework")
+        path: "ColorWheelMixer/Sources/ColorWheelMixor.xcframework")
     ]
 )
